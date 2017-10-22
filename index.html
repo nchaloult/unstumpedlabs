@@ -2,101 +2,36 @@
 <html lang="en">
 
   <head>
-    <meta charset="utf-8">
     <title>Unstumped Labs</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
 
-    <link href="css/grid.css" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/grid.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet" media="screen">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
   </head>
   <body>
-    <div class="container">
-      <div id="header">
-        <img src="res/logo.png">
-      </div>
-    </div>
-    <div class="container">
-      <div class="col-half">
-        <div class="card">
-          <h2>Supplemental Information</h2>
-          <div class="col-6">
-            <p>School/University</p>
-            <input type="text" name="school" placeholder="Georgia Institute of Technology">
+    <div id="particles-js"></div>
+    <div id="info">
+      <div id="info-container" class="container">
+        <div class="card shadow" style="position: relative; width: 80%; left: 50%; transform: translateX(-50%);">
+          <div class="col-4">
+            <img src="res/logo.png">
+            <h1>Unstumped Labs</h1>
+            <input id="complete" type="submit" name="goto" value="Complete an Application">
           </div>
-          <div class="col-3">
-            <p>Course Name</p>
-            <input type="text" name="school" placeholder="GT1000">
+          <div class="col-5">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis rhoncus laoreet. Sed in lacus eget massa venenatis laoreet dapibus eget lacus. Nunc efficitur libero eu lectus suscipit, sit amet tristique magna auctor. Aliquam placerat urna vitae diam tincidunt, vitae lobortis sem ornare. Nulla mauris mi, elementum vestibulum arcu sed, scelerisque consectetur nisl. Duis bibendum porta sapien a gravida. Nulla facilisi. Praesent rhoncus pulvinar turpis, vitae luctus lorem interdum eget. Phasellus venenatis neque et scelerisque condimentum. Cras suscipit turpis justo, a malesuada magna lacinia in. Etiam euismod ligula quis turpis auctor, nec porta odio fringilla.</p>
           </div>
-          <h2 style="margin-top: 3em;">Personal Evaluation</h2>
-          <div class="col-half">
-          <p>Rank your class performance:</p>
-            <select>
-              <option>1 (poor)</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5 (excellent)</option>
-            </select>
-          </div>
-          <div class="col-half">
-            <p>Enthusiasm towards group members:</p>
-            <select>
-              <option>1 (realistic)</option>
-              <option>2</option>
-              <option>3 (tolerant)</option>
-              <option>4</option>
-              <option>5 (ignorant)</option>
-            </select>
-          </div>
-        </div>
-      </div>
-      <div class="col-half">
-        <div class="card">
-          <h2>Group Information</h2>
-          <p>Name of most contributing member</p>
-          <input type="text" name="most" placeholder="John Doe">
-          <p>Name of least contributing member</p>
-          <input type="text" name="least" placeholder="Stan Smith">
-          <div class="col-half">
-            <p>Quantify charisma among group members:</p>
-            <select>
-              <option>1 (I don't know their names)</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5 (partners in crime)</option>
-            </select>
-          </div>
-          <div class="col-half">
-            <p>Professor's previously demonstrated leniency:</p>
-            <select>
-              <option>1 (we need a miracle idea)</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5 (relax on our order)</option>
-            </select>
-          </div>
-        </div>
-      </div>
-      <div class="col-9">
-        <div class="card" style="width: 60%;">
-          <textarea placeholder="Any additional comments or instructions concerning your request?"></textarea>
-          <input type="submit" value="Submit">
         </div>
       </div>
     </div>
-    <div id="footer">
-      <div class="container">
-        <div class="col-half" style="text-align: center;">
-          <p style="color: #fff;">Information about our service.</p>
-        </div>
-        <div class="col-half" style="text-align: center;">
-          <p style="color: #fff;">Information for GT1000</p>
-        </div>
-      </div>
-    </div>
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
   </body>
 
 </html>
