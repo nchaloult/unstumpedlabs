@@ -76,6 +76,7 @@ textarea {
     border-radius: 0.5em;
     color: #212121;
     transition: border 200ms;
+    resize: none;
 }
 
 textarea:focus {
@@ -113,6 +114,14 @@ input[type=submit]:focus {
 input[type=submit]:active {
     top: 0px;
     box-shadow: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 #info-container {
@@ -191,5 +200,9 @@ input[type=submit]:active {
     padding: 2em 0em;
     width: 100%;
     background: rgba(0, 0, 0, 0.8);
-    border-top: 4px solid #666;
+    text-align: center;
+}
+
+#footer p {
+    color: #fff;
 }
