@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title>Unstumped Labs</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+
+    <link href="css/grid.css" rel="stylesheet" media="screen">
+    <link href="css/results.css" rel="stylesheet" media="screen">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="header"><img src="res/logo.png">
+        <br><br>
+        <input onclick="window.location='about.html';" type="submit" name="about" value="Learn More About Us">
+      </div>
+    </div>
+    <div class="container">
+      <div class="card shadow">
+        <h1>Thanks For Your Order!</h1>
+        <p>
+          We will be sending a submission confirmation email to you very soon. Based on the information and constraints you provided us, expect to receive your idea from us within the next:
+        </p>
+        <span><h2>72 Hours</h2></span>
+        <p>
+          We appreciate you using our service, for each new submission gives us more experience, which helps us improve the quality and timeliness of our service for future customers.
+        </p>
+        <input onclick="window.location='index.html';" type="submit" value="Return">
+      </div>
+    </div>
+    <div id="footer">
+      <div class="container">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel suscipit dui. Nulla maximus, ligula vel maximus luctus, diam quam elementum nisl, in finibus tortor arcu in metus. Vivamus vel orci non mi ultricies ultrices. Etiam non purus varius, hendrerit mauris ut, elementum ex.
+        </p>
+      </div>
+    </div>
+
+    <script>
+      $(document).ready(function() {
+      $('#header').animate({opacity: 1.0}, {duration: 500});
+      $('.card').animate({opacity: 1.0}, {duration: 500});
+      });
+
+      var estimate = Math.round(Math.random() * 48) + 24;
+      $('span').html("<h2>" + estimate + " Hours</h2>");
+    </script>
+  </body>
+
+</html>

@@ -1,8 +1,3 @@
-#particles-js {
-    opacity: 0.0;
-    height: 99vh;
-}
-
 .shadow {
   -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
   -moz-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
@@ -32,58 +27,6 @@ h2 {
 
 p {
     font-size: 1em;
-}
-
-input[type=text] {
-    box-sizing: border-box;
-    padding: 0.75em;
-    width: 100%;
-    font-size: 1em;
-    font-style: italic;
-    border: 2px solid #e6e6e6;
-    border-radius: 0.5em;
-    color: #212121;
-    transition: border 200ms;
-}
-
-input[type=text]:focus {
-    outline: none;
-    border: 2px solid #9CCC65;
-}
-
-select {
-    padding: 0.75em;
-    border: 2px solid #e6e6e6;;
-    border-radius: 0.5em;
-    transition: border 200ms;
-}
-
-select:focus {
-    outline: none;
-    border: 2px solid #9CCC65;
-}
-
-textarea {
-    box-sizing: border-box;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    min-height: 10em;
-    margin-top: 0.5em;
-    padding: 1em;
-    font-size: 1em;
-    font-style: italic;
-    border: 2px solid #e6e6e6;
-    border-radius: 0.5em;
-    color: #212121;
-    transition: border 200ms;
-    resize: none;
-}
-
-textarea:focus {
-    outline: none;
-    border: 2px solid #9CCC65;
 }
 
 input[type=submit] {
@@ -118,31 +61,8 @@ input[type=submit]:active {
     box-shadow: none;
 }
 
-#info-container {
-    opacity: 0.0;
-    position: absolute;
-    top: 53%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#info .col-4, .col-5 {
-    box-sizing: border-box;
-    padding: 1em;
-}
-
-#info h1 {
-    font-size: 2em;
-    text-align: center;
-}
-
-#info img {
-    box-sizing: border-box;
-    width: 100%;
-}
-
 #header {
-    visibility: hidden;
+    visibility: visible;
     opacity: 0.0;
     width: 100%;
     padding: 1em;
@@ -155,17 +75,8 @@ input[type=submit]:active {
     width: 300px;
 }
 
-#content {
-    visibility: hidden;
-    opacity: 0.0;
-}
-
-.col-half, .col-3, .col-6 {
-    box-sizing: border-box;
-    padding: 0em 0.75em;
-}
-
 .card {
+    opacity: 0.0;
     position: relative;
     box-sizing: border-box;
     margin: 0.75em;
@@ -186,17 +97,4 @@ input[type=submit]:active {
     display: block;
     height: 0;
     clear: both;
-}
-
-#footer {
-    box-sizing: border-box;
-    margin-top: 4em;
-    padding: 2em 0em;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.8);
-    text-align: center;
-}
-
-#footer p {
-    color: #fff;
 }
