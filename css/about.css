@@ -62,19 +62,10 @@ input[type=submit]:active {
     width: 50%;
     height: 50vh;
     background: #f2f6fa;
-    transition: background 300ms;
-}
-
-.quarter:hover {
-    background: #D9DDE0;
 }
 
 .darker {
     background: #e6e6e6;
-}
-
-.darker:hover {
-    background: #ccc;
 }
 
 .backWrapper {
